@@ -1,7 +1,11 @@
 def alphabetize(arr)
   # code here
   ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  
-  arr.sort_by { |string| ESPERANTO_ALPHABET.to_a.detect{string[0]} }
+ arr.sort_by do |sentence|
+    sentence.split("").map do |character|
+      ESPERANTO_ALPHABET.index(character)
+    end
+  end
+end
     
 end
