@@ -2,6 +2,6 @@ def alphabetize(arr)
   # code here
   ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   
-  arr.each do |string|
+  arr.sort_by do |string|
     
 end
