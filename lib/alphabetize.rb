@@ -3,4 +3,5 @@ def alphabetize(arr)
   ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   
   arr.each do |string|
+    
 end
